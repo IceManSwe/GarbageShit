@@ -1,14 +1,16 @@
-body 
-{
+* {
+    scroll-behavior: smooth;
+}
+
+body {
     background-color: #606060;
 }
 
-.img-smaller
-{
+.img-smaller {
     max-width: 450px;
     max-height: 450px;
 }
 
-.darker{
+.darker {
     background: linear-gradient(rgba(50, 50, 50, 1), rgba(110, 110, 110, 1));
 }

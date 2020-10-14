@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drones</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #606060;">
+    <div class="container-fluid bg-dark">
+        <h1 class="text-center text-white fluid bg-dark">Drones</h1>
+        <nav class="nav ">
+            <a class="nav-link text-white " href="../index.html ">Home</a>
+            <a class="nav-link text-white " href="../html/contact.html ">Contact</a>
+            <a class="nav-link text-white " href="../html/about.html ">About</a>
+        </nav>
+    </div>
+    <div class="container ">
+        <div class="d-flex card mt-4 w-75 mx-auto ">
+            <div class="card-body darker text-white ">
+              <h4 class="card-title ">Core Components of a drone</h4>
+              <p class="card-text ">
+                A FPV (First person view) drone must have some certain kind of Components in them to work correctly
+                this will show examples and describe what they do
+              </p>
+              <a href="#fc" class="btn btn-secondary ">Flight Controller</a>
+              <a href="#esc" class="btn btn-secondary ">Esc</a>
+              <a href="#rec" class="btn btn-secondary ">Reciever</a>
+              <a href="#cam" class="btn btn-secondary ">Camera</a>
+              <a href="#vtx" class="btn btn-secondary ">VTX</a>
+              <a href="#frame" class="btn btn-secondary ">Frame</a>
+            </div>
+          </div>
+          <div class="d-flex card mt-4 w-75 mx-auto info" id="fc">
+            <div class="card-body darker text-white ">
+              <h4 class="card-title ">Flight Controller</h4>
+              <p class="card-text ">
+                A Flight Controller is the most important part of a FPV drone. It is the heart of the drone. it controlls the speed of every motor and decides how it will fly with your inputs from a controller.
+              </p>
+              <a href="https://getfpv.com " class="btn btn-secondary ">Where to buy</a>
+            </div>
+          </div>
+          <div class="d-flex card mt-4 w-75 mx-auto info" id="esc">
+            <div class="card-body darker text-white ">
+              <h4 class="card-title ">ESC</h4>
+              <p class="card-text ">
+                The is ESC stands for Electronic Speed Controller. The ESC recieves a signal from the flight controller and then changes the speed of the motot which it is connected to.
+              </p>
+              <a href="https://getfpv.com " class="btn btn-secondary ">Where to buy</a>
+            </div>
+          </div>          
+          <div class="d-flex card mt-4 w-75 mx-auto info" id="rec">
+            <div class="card-body darker text-white ">
+              <h4 class="card-title ">Reciever</h4>
+              <p class="card-text ">
+                  The Reciever is the part which allows it recieve signals from the pilots controller, the signal that the Reciever gets it converts it to a certain format and sends it to the flight controller
+              </p>
+              <a href="https://getfpv.com " class="btn btn-secondary ">Where to buy</a>
+            </div>
+          </div>          
+          <div class="d-flex card mt-4 w-75 mx-auto info" id="cam">
+            <div class="card-body darker text-white ">
+              <h4 class="card-title ">Camera</h4>
+              <p class="card-text ">
+                  The Camera is used for the FPV experience, it is low quality very small camera thats used for the pilots vision from the drones perspective. The most common resulution of a camera is 800 x 400 px
+              </p>
+              <a href="https://getfpv.com " class="btn btn-secondary ">Where to buy</a>
+            </div>
+          </div>          
+          <div class="d-flex card mt-4 w-75 mx-auto info" id="vtx">
+            <div class="card-body darker text-white ">
+              <h4 class="card-title ">VTX</h4>
+              <p class="card-text ">
+                  VTX stands for Video Transmitter. It sends out a video signal thats it gets from the camera. The signal goes to the pilot which usally has goggles or a sreen to watch from the drones perspective.
+              </p>
+              <a href="https://getfpv.com " class="btn btn-secondary ">Where to buy</a>
+            </div>
+          </div>          
+          <div class="d-flex card mt-4 w-75 mx-auto info" id="frame">
+            <div class="card-body darker text-white ">
+              <h4 class="card-title ">Frame</h4>
+              <p class="card-text ">
+                  The Frame is just a carbon fiber piece where you screw in the other Components. Its Carbon fiber because its very strong as drones crashes alot hard and carbon is the strongest material at the price point
+              </p>
+              <a href="https://getfpv.com " class="btn btn-secondary ">Where to buy</a>
+            </div>
+          </div>
+    </div>
+    <script src="../js/drone.js"></script>
+    <script src="../js/holder.js "></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+</body>
+
+</html>
